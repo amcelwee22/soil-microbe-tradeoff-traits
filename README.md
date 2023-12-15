@@ -9,7 +9,7 @@ The main file is `Computational_Genomics_Project_clean.ipynb`, a Jupyter noteboo
 
 `BayesTraits_Inputs\` folder contains the files used for testing phylogenetic signal with BayesTraits including:
 * `LOGTranform_NEWGenomeNEWFeaturevalues.tsv` file with the log transformed genomic feature values for the 203 RefSoil entries used in the BayesTraits analysis
-* `phylophlan_accurate_with_NewRefSoil_genome_features.nex` file which is the phylogenetic tree output from PhyloPhlAn 3.0 converted into Nexus format using Newick2Nexus
+* `phylophlan_accurate_with_NewRefSoil_genome_features.nex` file which is the phylogenetic tree output from PhyloPhlAn 3.0 of the 203 RefSoil entries converted into Nexus format using Newick2Nexus (https://github.com/josephwb/Newick2Nexus)
 
 `Tradeoff_Feature_Analysis\` contains the files used for identifying the tradeoff features. These are split between the `/ParTI/` folder for the files and scripts used in the ParTI analysis and the `/R/` folder for the files and scripts used to perform PCA loading analysis in R.
   In `/ParTI/` is:

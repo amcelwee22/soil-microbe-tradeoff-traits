@@ -11,3 +11,6 @@ contAttr = str2double(featureValues);
 
 [arc, arcOrig, pc] = ParTI_lite(featureValues, 1, 10, [], [],[], featureNames, ...
     contAttr, [], 0.05,'2023-12-14_GenomicFeature_1');
+
+[arc, arcOrig, pc, errs, pval] = ParTI(featureValues, 1, 10, [], [],[], featureNames, ...
+    contAttr, [], 0.05,'2023-12-14_GenomicFeature_1');
